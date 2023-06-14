@@ -1,0 +1,17 @@
+header{
+    background-color: #666;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    /* margin: */
+}
+
+.firstbox{
+    background-color: aqua;
+    padding: 30px;
+    align-content:center;
+    height: 119px;
+    width: 336px;
+    margin: 30px;
+}
