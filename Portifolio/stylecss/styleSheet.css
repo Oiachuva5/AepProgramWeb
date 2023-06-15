@@ -1,17 +1,42 @@
-header{
-    background-color: #666;
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
-    color: white;
-    /* margin: */
+header {
+  background-color: #666;
+
+  height: 64px;
+  width: 100%;
+
+  text-align: center;
+  font-size: 35px;
 }
 
-.firstbox{
-    background-color: aqua;
-    padding: 30px;
-    align-content:center;
-    height: 119px;
-    width: 336px;
-    margin: 30px;
+main {
+  padding: 46px 16px;
+}
+
+.main-banner {
+  display: flex;
+  flex-direction: column;
+  row-gap: 46px;
+}
+
+.firstbox {
+  background-color: aqua;
+
+  height: auto;
+  width: calc(100% - 32px);
+
+  padding: 16px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.seccondbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: blue;
+
+  width: 100%;
 }
