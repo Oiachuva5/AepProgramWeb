@@ -36,7 +36,37 @@ main {
   justify-content: center;
   align-items: center;
 
-  background: blue;
+  background-color: blue;
+  color: aliceblue;
 
-  width: 100%;
+  padding: 16px;
+
+  width: auto;
+  height: 350px;
+
 }
+
+.campoTexto {
+
+}
+.textStyle {
+  color: blueviolet;
+}
+
+.circulo {
+  background: darkred;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.break-row{
+  flex-basis: 100%;
+  height: 0;
+}
+
+.break-colum{
+  flex-basis: 100%;
+  width: 0;
+}
+
