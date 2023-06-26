@@ -9,6 +9,10 @@
 
 body{
   background-color: #FFFBFE;
+  display: flex;
+  flex-wrap: wrap;
+ 
+
 }
 
 header{
@@ -31,8 +35,7 @@ header{
   background: #000;
 
   position: static;
-/*justify-content: center;*/
-/*align-items: center;*/
+
   border-radius: 13px;
 
   margin: 100px 30px;
@@ -46,19 +49,24 @@ header{
 }
 
 .firstInfoBox{
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
+  justify-content: space-between;
   background: #FFFBFE;
   border-radius: 13px;
   padding: 2%;
   box-sizing: 640px;
   width: 45%;
   height: 200px;
+  gap: 20px;
 
 }
 
 .seccondInfoBox{
-  
-  align-items: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   background: #FFFBFE;
   border-radius: 13px;
   padding: 2%;
@@ -78,6 +86,9 @@ header{
 }
 
 .buttonStyle{
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   color: #FFFBFE;
   padding: 10px 50px;
   margin-bottom: 20px;
@@ -103,7 +114,19 @@ header{
   margin-left: 40px;
 }
 
+.imgmask {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
 
+.test{
+  color: red;
+}
 
 
 
